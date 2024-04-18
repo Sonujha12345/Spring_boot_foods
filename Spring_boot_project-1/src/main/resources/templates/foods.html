@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Online Food Delivery Service in India Myonlinesonu.com</title>
+    <link href='https://fonts.googleapis.com/css?family=Bree Serif' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
+    <link rel="stylesheet" href="tut.css">
+    <link rel="stylesheet" media="screen and (max-width: 1000px)" href="phone.css">
+</head>
+<body>
+    <nav id="navbar">
+          <div id="logo">
+            <img src="sonu.jpg" alt="Myonlinesonu.com">
+          </div>
+          <ul>
+            <li class="itam"><a href="#home">Home</a></li>
+            <li class="itam"><a href="#services">Services</a></li>
+            <li class="itam"><a href="#cilent-section">Our Clients</a></li>
+            <li class="itam"><a href="#contact">Contact Us</a></li>
+          </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to Myonlinesonu.com</h1>
+        <p>Food is one of the basic necessities of life. contains nutrients—substances essential for the growth, repair, and maintenance </p>
+        <p>of body tissues and for the regulation of vital processes.</p>
+        <button class="btn" id="orderBtn">Order Now</button>
+    </section>
+    <section class="services">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="pizza.jpg" alt="">
+                <h2 class="h-secondary center">Food Ordering</h2>
+                <p class="center">Free deliveries are applicable only on food Orders for participating restaurants, on Instamart Orders and on Swiggy Mall Orders, subject to the minimum.</p>
+            </div>
+            <div class="box">
+                <img src="food.jpg" alt="">
+                <h2 class="h-secondary center">Food Catering</h2>
+                <p class="center">Free deliveries are applicable only on food Orders for participating restaurants, on Instamart Orders and on Swiggy Mall Orders, subject to the minimum.</p>
+            </div>
+            <div class="box">
+                <img src="boy.jpg" alt="">
+                <h2 class="h-secondary center">Bulk Ordering</h2>
+                <p class="center">Free deliveries are applicable only on food Orders for participating restaurants, on Instamart Orders and on Swiggy Mall Orders, subject to the minimum.</p>
+            </div>
+        </div>
+    </section>
+    <section id="cilent-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="client">
+            <div class="client-item">
+                <img src="app.png" alt="Our Clients">
+            </div>
+            <div class="client-item">
+                <img src="micr.webp" alt="Our Clients">
+            </div>
+            <div class="client-item">
+                <img src="Skype.png" alt="Our Clients">
+            </div>
+            <div class="client-item">
+                <img src="HP.png" alt="Our Clients">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form id="contactForm">
+                <div class="form-group">
+                   <label for="name">Name:</label> 
+                   <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label> 
+                    <input type="text" name="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label> 
+                    <input type="text" name="phone" id="phone" placeholder="Enter your Phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label> 
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+            <div style="text-align: center;">
+    <button type="submit" style="font-size: 20px;
+                                 color: blue;
+                                 background-color: black;
+                                 border: none;
+                                 transition: background-color 0.3s ease;
+                                 "
+            onmouseover="this.style.backgroundColor='Red';"
+            onmouseout="this.style.backgroundColor='white';">Submit</button>
+</div>
+                
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+        Copyright &copy; www.Myonlinesonu.com. All right reserved!
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Logic for Order Now button
+            document.getElementById('orderBtn').addEventListener('click', function () {
+                // Your logic for what happens when the Order Now button is clicked
+                // For example, you can redirect to another page or show a popup
+                alert('Order Now button clicked!');
+            });
+
+            // Logic for form submission
+            document.getElementById('contactForm').addEventListener('submit', function (event) {
+                event.preventDefault(); // Prevent default form submission
+
+                // Your logic for handling form submission
+                // For example, you can send form data to a server using AJAX
+                alert('Form submitted!');
+            });
+        });
+    </script>
+</body>
+</html>
